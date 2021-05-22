@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('nhập nhiệt độ:');
+    for (i = 0; i<10000; i++) {
+        if (a > 100 || a < 20) {
+            alert('nhiệt độ không phù hợp yêu cầu nhập lại');
+            let a = prompt('nhập nhiệt độ:');
+            if (a <100 || a >20){
+                alert('nhiệt độ phù hợp');
+                break;
+            }
+        }
+    }
+</script>
+</body>
+</html>
